@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Inspection</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/leaflet.fusesearch.css" crossorigin="" />
+    <link rel="stylesheet" href="style.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="../dist/MarkerCluster.Default.ie.css" /><![endif]-->
+   
+  </head>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="header">
+            <header>
+                <h1>Prince George's County Food Inspection Map</h1>
+            </header>
+                <h3><b>Project Links</b></h3>
+        </div>
+    
+        <div id="links">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="https://github.com/bcantillano/INST377_Food_Inspection/tree/master/docs">Documentation</a>
+        </div>
+        
+        <div class="wrapper">
+            <div class="OutputContainer">
+                <h3>Below is a map of Prince George's County. Use the filter to refine your search.</h3>
+                <div id="mapid" style="width: 700px; height: 600px;"></div>
+            </div>
+    
+            <div class="filter">
+                <h3>Filter</h3>
+                <!-- <input type="text" placeholder="Search.."> -->
+                <input type="checkbox" name="filter1" value="Filter_1"> Filter Description<br>
+                <input type="checkbox" name="filter2" value="Filter_2"> Filter Description<br>
+                <input type="checkbox" name="filter3" value="Filter_3" checked> Filter Description<br><br>
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css" crossorigin=""/>
+    <script src="node_modules/leaflet/dist/leaflet.js"></script>
+    <script src="node_modules/leaflet.featuregroup.subgroup/dist/leaflet.featuregroup.subgroup-src.js"></script>
+    <link rel="stylesheet" href="node_modules/leaflet.markercluster/dist/MarkerCluster.css" crossorigin=""/>
+    <link rel="stylesheet" href="node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css" crossorigin=""/>
+    <script src="node_modules/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    <script src="javascript/map.js"></script>
+</body>
+</html>

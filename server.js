@@ -21,6 +21,7 @@ app.get("/api", (req, res) => {
     .then(r => r.json())
     .then(data => {
       res.send(data);
+      res.render("index", {});
     })
     .catch(err => {
       console.log(err);

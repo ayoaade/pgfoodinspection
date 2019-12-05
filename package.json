@@ -28,9 +28,13 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2"
   },
+  "peerDependencies": {
+    "leaflet": "^1.6.0"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "leaflet": "^1.6.0",
-    "leaflet.markercluster": "^1.4.1"
+    "leaflet.markercluster": "^1.4.1",
+    "node-fetch": "^2.6.0"
   }
 }

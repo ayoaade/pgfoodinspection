@@ -1,5 +1,5 @@
 {
-  "name": "INST377_Food_Inspection",
+  "name": "pgfoodinspection",
   "version": "1.0.0",
   "description": "Restaurant food inspection heat mapping and tracking software built on JS/Leaflet. Map-based web app of Prince George's County.",
   "main": "server.js",
